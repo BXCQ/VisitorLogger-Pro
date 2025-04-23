@@ -22,10 +22,11 @@
 ## 安装方法
 
 1. 下载插件文件
-2. 将文件上传到/usr/plugins目录下
-3. 插件名为VisitorLoggerPro
-4. 在 Typecho 后台启用插件
-5. 要把该文件`visitor-stats.php`移动到handsome主题根目录
+2. 在本地解压后把VisitorLogger改为VisitorLoggerPro
+3. 将改后的文件上传到/usr/plugins目录下
+4. 插件名为VisitorLoggerPro
+5. 在 Typecho 后台启用插件
+6. 要把该文件`visitor-stats.php`移动到handsome主题根目录
 
 ## 使用说明
 
