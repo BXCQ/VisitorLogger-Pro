@@ -2,9 +2,9 @@
 /**
  * 访客统计动作处理
  * 
- * @package VisitorLogger
- * @author BXCQ
- * @version 1.0.0
+ * @package VisitorLoggerPro
+ * @author 璇
+ * @version 1.5.0
  * @link https://blog.ybyq.wang/
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
