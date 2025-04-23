@@ -1,8 +1,6 @@
-# Typecho 访客统计插件
+# Typecho 访客统计插件-VisitorLogger-Pro
+这是一个为 Typecho 博客系统开发的访客统计插件，基于原版的VistorLogger修改版本。该插件提供了详细的访问统计功能，包括访问国家/地区统计、IP分布等信息，并进行了隐私保护处理。
 
-## 项目说明
-
-这是一个为 Typecho 博客系统开发的访客统计插件，基于 [BXCQ](https://github.com/BXCQ) 的修改版本。该插件提供了详细的访问统计功能，包括访问国家/地区统计、IP分布等信息，并进行了隐私保护处理。
 
 ## 功能特点
 
@@ -14,13 +12,21 @@
 - 移动端适配
 - 隐私保护（IP地址匿名化）
 - 管理员访问自动排除
+![后台统计](https://github.com/user-attachments/assets/abf6e988-8541-4f6d-9fef-dceb1a27ec8e)
+![网站页面](https://github.com/user-attachments/assets/7572ba77-88ff-44e8-9b20-0b148ee73ea8)
+![列表](https://github.com/user-attachments/assets/f3b4aaea-4b2b-4e75-becf-a4eae04e5f71)
+![移动端显示](https://github.com/user-attachments/assets/39bfdcdd-012c-48ef-b8df-e25566f93454)
+
+  
 
 ## 安装方法
 
 1. 下载插件文件
-2. 将文件上传到您的 Typecho 主题目录下
-3. 在 Typecho 后台启用插件
-4. 创建新页面，选择"访客统计"模板
+2. 在本地解压后把VisitorLogger改为VisitorLoggerPro
+3. 将改后的文件上传到/usr/plugins目录下
+4. 插件名为VisitorLoggerPro
+5. 在 Typecho 后台启用插件
+6. 要把该文件`visitor-stats.php`移动到handsome主题根目录
 
 ## 使用说明
 
@@ -29,6 +35,7 @@
 1. 在 Typecho 后台创建新页面
 2. 在页面模板中选择"访客统计"
 3. 发布页面即可看到统计效果
+4. 创建新页面，选择"访客统计"模板
 
 ### 功能说明
 
@@ -70,7 +77,7 @@ MIT License
 
 ## 更新日志
 
-### v1.0.0 (2024-03-21)
+### v1.0.0 (2024-04-23)
 - 初始版本发布
 - 实现基本统计功能
 - 添加隐私保护措施
