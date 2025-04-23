@@ -1,9 +1,10 @@
+<?php
 /**
  * 访客统计
  *
  * @package custom
- * @author BXCQ
- * @version 1.0.0
+ * @author 璇
+ * @version 1.5.0
  * @link https://blog.ybyq.wang/
  * 
  * Template Name: 访客统计
